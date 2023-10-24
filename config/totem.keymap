@@ -113,6 +113,32 @@
                         , <&macro_release &kp LALT>
                         ;
         };
+        scrshtfull: scrshtfull {
+                // screenshot full
+                label = "scrshtfull";
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                        = <&macro_press &kp LCMD>
+                        , <&macro_press &kp LSHFT>
+                        , <&macro_tap &kp KP_N3>
+                        , <&macro_release &kp LCMD>
+                        , <&macro_release &kp LSHFT>
+                        ;
+        };
+        scrshtprt: scrshtfrt {
+                // screenshot full
+                label = "scrshtfull";
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                        = <&macro_press &kp LCMD>
+                        , <&macro_press &kp LSHFT>
+                        , <&macro_tap &kp KP_N4>
+                        , <&macro_release &kp LCMD>
+                        , <&macro_release &kp LSHFT>
+                        ;
+        };
   };
 
         keymap {
