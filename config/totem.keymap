@@ -26,10 +26,10 @@
 #define VIM  6
 
 &mt {
-  quick-tap-ms = <10>;
+  quick-tap-ms = <100>;
   global-quick-tap;
   flavor = "tap-preferred";
-  tapping-term-ms = <200>;
+  tapping-term-ms = <120>;
 };
 
 
